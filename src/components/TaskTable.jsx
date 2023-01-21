@@ -18,7 +18,7 @@ export const TaskTable = ({ tasks, toggleTask, showCompleted = false }) => {
           <th className="border border-slate-600 p-3">Task</th>
         </tr>
       </thead>
-      <tbody className="bg-slate-800 border-slate-700">{taskTableRows(showCompleted)}</tbody>
+      <tbody className="h-14 bg-slate-800 border-slate-700">{taskTableRows(showCompleted)}</tbody>
     </table>
   );
 };

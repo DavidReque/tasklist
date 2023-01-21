@@ -39,6 +39,7 @@ function App() {
   return (
     <main className="App text-white text-center">
       <div className="container">
+      <h2 className="title text-center text-white my-4 font-bold text-2xl">Escribe tu tarea</h2>
       <TaskCreator createNewTask={createNewTask} />
       <TaskTable tasks={tasksItems} toggleTask={toggleTask} />
 
