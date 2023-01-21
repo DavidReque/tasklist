@@ -12,7 +12,7 @@ const TaskCreator = ({createNewTask}) => {
   return (
     <form className="my-2" onSubmit={handleSubmit}>
       <input
-        className="p-2 mx-3 my-2 rounded-sm"
+        className="text-slate-800 p-2 mx-3 my-2 rounded-sm"
         type="text"
         placeholder="Enter a new task"
         value={newTaskName}
